@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="feature",
-		glue="stepDef",
+		glue="stepDefinition",
 		plugin="html:target/cucumber-html-report"
 		)
 public class TestRunner{
