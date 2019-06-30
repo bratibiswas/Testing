@@ -1,4 +1,4 @@
-package stepDef;
+package stepDefinition;
 
 import bdd.Runner;
 import cucumber.api.java.en.Given;
